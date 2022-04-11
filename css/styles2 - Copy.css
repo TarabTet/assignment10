@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(180, 247, 210, 0.363);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 300px;
+}
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height:max-content;
+    background-color: rgb(194, 247, 220);
+    padding: 0 10em;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+nav img{
+    width: 12%;
+    float: left;
+    margin: 10px 0;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav ul {
+    float: left;
+    margin-top: 3%;
+    width: 70%;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    margin: 0.5em;
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+.nav-container {
+    flex: content;
+    width: 20%;
+    float: right;
+    /* padding: 0 2em; */
+    display: flexbox;
+    position: relative;
+    bottom: 70px;
+    border: 1px solid red;
+    /* left: 600px; */
+}
+nav button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 2px 2px;
+    margin-bottom: 10px;
+    border: 3;
+    cursor: pointer;
+    font-variant: normal;
+}
+.main-container{
+    max-width: 1440px;
+    padding: 4em;
+
+}
+.main-container aside{
+    float: left;
+    margin-top: 10px;
+}
+.main-container main{
+    float: right;
+    margin-top: 10px;
+}
+
+aside{
+    width: 15%;
+}
+
+aside section{
+    background-color: lightgray;
+    box-shadow: 3px 4px 7px #888888;
+    padding: 10px;
+    margin: 0 25px 25px 0;
+}
+
+.media img{
+    width: 15%;
+}
+
+.Flag img{
+    width: 50%;
+}
+
+main{
+    width: 80%;
+    background-color: lightgray;
+    box-shadow: 3px 4px 7px #888888;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+article h1{
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+article p{
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imageGroup {
+    padding: 3px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imageGroup div img{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 230px;
+    box-shadow: 3px 4px 7px #888888;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(206, 241, 203);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-variant: normal;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
